@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T04:06:05.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" version="20.0.1" etag="AKektP6LPDDdNMUeMTDb" type="github"><diagram id="BBI4BAN3JQSO7QFQR7YC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-17T07:29:15.509Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="2qMbKmAOQ8tF8lzZrBk8" version="20.0.1" type="github">
+  <diagram id="BBI4BAN3JQSO7QFQR7YC" name="Page-1">
+    <mxGraphModel dx="1773" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-1" value="1. &amp;nbsp;Code fetched by System &amp;amp; clone&lt;br&gt;2. Build &amp;amp; Deploy across several regions( )&lt;br&gt;3. Move package to different &amp;nbsp;env&lt;br&gt;4 UI -&amp;gt; Press Link-&amp;gt; move to different env&lt;br&gt;5. Users( Admin &amp;amp; non admin)&amp;nbsp;&lt;br&gt;6. Featue to rollback" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-10" width="350" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-2" value="Non Functional requirements&lt;br&gt;1. Availability is required not very high&lt;br&gt;2.Consistent&lt;br&gt;3. Scalable&amp;nbsp;&lt;br&gt;4. Replication of Binaries( packages)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="40" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-3" value="Release Tool UI Components" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="180" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kjaZyyyvGSAtEOG1_rkB-4" target="kjaZyyyvGSAtEOG1_rkB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kjaZyyyvGSAtEOG1_rkB-4" target="kjaZyyyvGSAtEOG1_rkB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kjaZyyyvGSAtEOG1_rkB-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="310" />
+              <mxPoint x="610" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-4" value="Git Service&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-5" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-6" value="GIT" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-10" value="Build Servers Worker Nodes" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-11" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-13" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kjaZyyyvGSAtEOG1_rkB-14" value="1. gitrepo &amp;nbsp;-name&lt;br&gt;2. git url&lt;br&gt;3. &amp;nbsp;commitNo&lt;br&gt;3. develop - master-&lt;br&gt;4.Tag-1.0.0&lt;br&gt;5. status&lt;br&gt;6. inAllregionsAvailable&lt;br&gt;7. durationCompleted&lt;br&gt;8. worker-node-id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="270" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
